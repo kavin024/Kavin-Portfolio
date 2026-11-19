@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="AWS Photos application preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17171b"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </linearGradient>
+    <linearGradient id="tile1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b5b66"/>
+      <stop offset="1" stop-color="#22222a"/>
+    </linearGradient>
+    <linearGradient id="tile2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8e8e9b"/>
+      <stop offset="1" stop-color="#34343d"/>
+    </linearGradient>
+    <linearGradient id="tile3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a3a44"/>
+      <stop offset="1" stop-color="#1b1b21"/>
+    </linearGradient>
+    <linearGradient id="tile4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a5a5b3"/>
+      <stop offset="1" stop-color="#4a4a55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="1040" cy="70" r="240" fill="#ffffff" opacity="0.03"/>
+  <circle cx="120" cy="700" r="220" fill="#ffffff" opacity="0.03"/>
+
+  <!-- app window -->
+  <rect x="70" y="60" width="1060" height="630" rx="18" fill="#111114" stroke="#2b2b33"/>
+  <rect x="70" y="60" width="1060" height="52" rx="18" fill="#17171b"/>
+  <rect x="70" y="94" width="1060" height="18" fill="#17171b"/>
+  <circle cx="102" cy="86" r="5.5" fill="#3a3a44"/>
+  <circle cx="122" cy="86" r="5.5" fill="#3a3a44"/>
+  <circle cx="142" cy="86" r="5.5" fill="#3a3a44"/>
+  <rect x="180" y="76" width="300" height="20" rx="10" fill="#0e0e11"/>
+
+  <!-- sidebar -->
+  <rect x="96" y="136" width="210" height="528" rx="12" fill="#0e0e11" stroke="#23232a"/>
+  <circle cx="126" cy="176" r="15" fill="url(#tile2)"/>
+  <rect x="152" y="167" width="96" height="9" rx="4.5" fill="#6b6b78"/>
+  <rect x="152" y="182" width="64" height="7" rx="3.5" fill="#3a3a44"/>
+
+  <rect x="112" y="224" width="178" height="34" rx="8" fill="#ffffff" opacity="0.1"/>
+  <rect x="126" y="236" width="12" height="10" rx="2" fill="#c9c9d4"/>
+  <rect x="150" y="237" width="76" height="8" rx="4" fill="#c9c9d4"/>
+  <rect x="126" y="286" width="12" height="10" rx="2" fill="#55555f"/>
+  <rect x="150" y="287" width="92" height="8" rx="4" fill="#454550"/>
+  <rect x="126" y="326" width="12" height="10" rx="2" fill="#55555f"/>
+  <rect x="150" y="327" width="68" height="8" rx="4" fill="#454550"/>
+  <rect x="126" y="366" width="12" height="10" rx="2" fill="#55555f"/>
+  <rect x="150" y="367" width="86" height="8" rx="4" fill="#454550"/>
+
+  <rect x="112" y="580" width="178" height="1" fill="#23232a"/>
+  <rect x="112" y="602" width="120" height="8" rx="4" fill="#3a3a44"/>
+  <rect x="112" y="622" width="150" height="7" rx="3.5" fill="#2b2b33"/>
+
+  <!-- header -->
+  <rect x="336" y="136" width="200" height="16" rx="8" fill="#8b8b98"/>
+  <rect x="336" y="166" width="130" height="9" rx="4.5" fill="#3d3d47"/>
+  <rect x="930" y="140" width="180" height="38" rx="9" fill="#ffffff"/>
+  <rect x="960" y="155" width="120" height="9" rx="4.5" fill="#0c0c0e"/>
+
+  <!-- photo grid -->
+  <g>
+    <rect x="336" y="218" width="240" height="170" rx="12" fill="url(#tile1)"/>
+    <path d="M336 348 L406 288 L462 330 L506 296 L576 356 L576 376 a12 12 0 0 1 -12 12 L348 388 a12 12 0 0 1 -12 -12 Z" fill="#0c0c0e" opacity="0.35"/>
+    <circle cx="392" cy="262" r="14" fill="#e7e7ee" opacity="0.35"/>
+
+    <rect x="592" y="218" width="240" height="170" rx="12" fill="url(#tile2)"/>
+    <path d="M592 350 L664 286 L720 332 L760 300 L832 352 L832 376 a12 12 0 0 1 -12 12 L604 388 a12 12 0 0 1 -12 -12 Z" fill="#0c0c0e" opacity="0.35"/>
+    <circle cx="648" cy="262" r="14" fill="#0c0c0e" opacity="0.35"/>
+
+    <rect x="848" y="218" width="240" height="170" rx="12" fill="url(#tile3)"/>
+    <path d="M848 344 L920 292 L976 334 L1016 306 L1088 360 L1088 376 a12 12 0 0 1 -12 12 L860 388 a12 12 0 0 1 -12 -12 Z" fill="#0c0c0e" opacity="0.4"/>
+    <circle cx="904" cy="262" r="14" fill="#c9c9d4" opacity="0.3"/>
+
+    <rect x="336" y="404" width="240" height="170" rx="12" fill="url(#tile4)"/>
+    <path d="M336 534 L406 476 L462 516 L506 484 L576 542 L576 562 a12 12 0 0 1 -12 12 L348 574 a12 12 0 0 1 -12 -12 Z" fill="#0c0c0e" opacity="0.35"/>
+    <circle cx="392" cy="448" r="14" fill="#0c0c0e" opacity="0.3"/>
+
+    <rect x="592" y="404" width="240" height="170" rx="12" fill="url(#tile3)"/>
+    <path d="M592 538 L664 478 L720 520 L760 488 L832 544 L832 562 a12 12 0 0 1 -12 12 L604 574 a12 12 0 0 1 -12 -12 Z" fill="#0c0c0e" opacity="0.4"/>
+    <circle cx="648" cy="448" r="14" fill="#e7e7ee" opacity="0.25"/>
+
+    <rect x="848" y="404" width="240" height="170" rx="12" fill="url(#tile1)"/>
+    <path d="M848 532 L920 474 L976 514 L1016 486 L1088 540 L1088 562 a12 12 0 0 1 -12 12 L860 574 a12 12 0 0 1 -12 -12 Z" fill="#0c0c0e" opacity="0.35"/>
+    <circle cx="904" cy="448" r="14" fill="#c9c9d4" opacity="0.3"/>
+  </g>
+
+  <!-- upload card -->
+  <rect x="336" y="600" width="752" height="46" rx="10" fill="#0e0e11" stroke="#23232a" stroke-dasharray="6 6"/>
+  <rect x="352" y="616" width="14" height="14" rx="3" fill="#55555f"/>
+  <rect x="378" y="619" width="210" height="8" rx="4" fill="#3d3d47"/>
+
+  <!-- aws chip -->
+  <g transform="translate(906,596)">
+    <rect width="182" height="54" rx="12" fill="#17171b" stroke="#2b2b33"/>
+    <circle cx="26" cy="27" r="10" fill="none" stroke="#c9c9d4" stroke-width="1.6"/>
+    <path d="M18 27h16M26 19c-5 5-5 11 0 16M26 19c5 5 5 11 0 16" fill="none" stroke="#c9c9d4" stroke-width="1.4"/>
+    <text x="46" y="24" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#8b8b98" letter-spacing="1.4">STORAGE</text>
+    <text x="46" y="40" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#e7e7ee">Amazon S3</text>
+  </g>
+</svg>
